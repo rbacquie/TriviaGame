@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Fjalla+One');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../assets/images/malcomX.jpg");
+    font-family: 'Fjalla One', sans-serif;
+}
+
+header {
+    padding-top: 20px;
+    font-size: 55px;
+    color: red;
+    text-align: center;
+}
+
+#info {
+    position: fixed;
+    top: 170px;
+    left: 30px;
+    border: 3px solid lightgray;
+    border-radius: 6px;
+    border-radius: 6px solid lightgray;
+    background-color: rgba(214, 16, 16, 0.521);
+    font-family: 'Bree Serif', serif;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+}
+
+button {
+    width: 50px;
+    height: 25px;
+  }
+
+#popbox {
+    position: fixed;
+    top: 170px;
+    right: 50px;
+    padding: 5px;
+    margin: 5px;
+    width: auto;
+    height: auto;
+    border: 3px solid lightgray;
+    border-radius: 6px;
+    background-color:  rgba(238, 241, 21, 0.39);
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+
+#timer {
+    position: static;
+    top: 150px;
+    font-size: 60px;
+    color: wheat;
+    width: 75px;
+    text-align: center;
+}
+
+#quiz {
+    position: relative;
+    top: 250px;
+    margin: 10px auto;
+    border: 3px solid lightgray;
+    padding: 15px 20px;
+    width: 550px;
+    height: auto;
+    border-radius: 6px;
+    background-color: rgba(18, 189, 12, 0.432);
+}
+
+#quest5 {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+#answers {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+}
