@@ -20,7 +20,7 @@ header {
 
 #info {
     position: fixed;
-    top: 170px;
+    top: 140px;
     left: 30px;
     border: 3px solid lightgray;
     border-radius: 6px;
@@ -30,6 +30,7 @@ header {
     color: white;
     text-align: center;
     padding: 5px;
+    box-shadow: 10px 10px 8px #4e4e4e;
     margin: 5px;
     width: auto;
     height: auto;
@@ -42,7 +43,7 @@ button {
 
 #popbox {
     position: fixed;
-    top: 170px;
+    top: 140px;
     right: 50px;
     padding: 5px;
     margin: 5px;
@@ -52,39 +53,60 @@ button {
     border-radius: 6px;
     background-color:  rgba(238, 241, 21, 0.39);
     font-family: 'Bree Serif', serif;
+    box-shadow: 10px 10px 8px #4e4e4e;
     color: white;
 }
 
 #timer {
-    position: static;
-    top: 150px;
+    position: fixed;
+    top: 170px;
+    left: 650px;
     font-size: 60px;
-    color: wheat;
+    color: rgba(255, 254, 254, 0.623);;
     width: 75px;
     text-align: center;
 }
 
 #quiz {
     position: relative;
-    top: 250px;
+    top: 245px;
+    right: -50px;
     margin: 10px auto;
-    border: 3px solid lightgray;
+    border: 2px solid lightgray;
     padding: 15px 20px;
-    width: 550px;
+    width: 650px;
     height: auto;
-    border-radius: 6px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px #4e4e4e;
     background-color: rgba(18, 189, 12, 0.432);
 }
 
 #quest5 {
     color: white;
+    margin-top: 20px;
+    padding: 7px;
     font-family: 'Bree Serif', serif;
     font-size: 25px;
     text-align: left;
 }
 
-#answers {
+#ans1, #ans2, #ans3, #ans4 {
     color: white;
+    background-color: wheat;
+    width: 350px;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
+    border: 2px solid darkgray;
+    border-radius: 30px;
+    padding: 10px 5px;
+    margin: 5px;
+}
+
+#ans1:hover, #ans2:hover, #ans3:hover, #ans4:hover {
+    cursor: pointer;
+    background-color: darkgray;
+}
+
+#ans1:focus, #ans2:focus, #ans3:focus, #ans4:focus {
+    outline: 0;
 }
