@@ -81,29 +81,34 @@ button {
     background-color: rgba(18, 189, 12, 0.432);
 }
 
-#quest5 {
+#question {
     color: white;
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 7px;
     font-family: 'Bree Serif', serif;
     font-size: 25px;
     text-align: left;
 }
 
-#ans1, #ans2, #ans3, #ans4 {
-    color: white;
+#ans1, #ans2, #ans3, #ans4,
+choice1, choice2, choice3, choice4 {
+    color: rgb(7, 6, 6);
     background-color: wheat;
-    width: 350px;
+    text-align: left;
+    margin-top: 10px;
+    width: 550px;
     font-family: 'Fjalla One', sans-serif;
     font-size: 20px;
     border: 2px solid darkgray;
     border-radius: 30px;
-    padding: 10px 5px;
-    margin: 5px;
+    /* padding: 10px 5px;
+    margin: 5px; */
 }
 
-#ans1:hover, #ans2:hover, #ans3:hover, #ans4:hover {
+#ans1:hover, #ans2:hover, #ans3:hover, #ans4:hover,
+choice1:hover, choice2:hover, choice3:hover, choice4:hover {
     cursor: pointer;
+    color: rgb(56, 42, 42);
     background-color: darkgray;
 }
 
