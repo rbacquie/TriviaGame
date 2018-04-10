@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Fjalla+One|Rock+Salt|Advent+Pro');
 
 * {
     margin: 0;
@@ -7,8 +7,8 @@
 }
 
 body {
-    background-image: url("../../assets/images/malcomX.jpg");
-    font-family: 'Fjalla One', sans-serif;
+    background-image: url("../../assets/images/malcolmX.jpg");
+    font-family: 'Advent Pro', sans-serif;
 }
 
 header {
@@ -16,6 +16,7 @@ header {
     font-size: 55px;
     color: red;
     text-align: center;
+    font-family: 'Rock Salt', cursive;
 }
 
 #info {
@@ -26,7 +27,7 @@ header {
     border-radius: 6px;
     border-radius: 6px solid lightgray;
     background-color: rgba(214, 16, 16, 0.521);
-    font-family: 'Bree Serif', serif;
+    font-family: 'Advent Pro', sans-serif;
     color: white;
     text-align: center;
     padding: 5px;
@@ -36,28 +37,23 @@ header {
     height: auto;
 }
 
-button {
-    width: 50px;
-    height: 25px;
-  }
-
 #popbox {
     position: fixed;
     top: 140px;
     right: 50px;
     padding: 5px;
     margin: 5px;
-    width: auto;
-    height: auto;
+    background-repeat: no-repeat;
+    width: 189px;
+    height: 189px;
     border: 3px solid lightgray;
     border-radius: 6px;
     background-color:  rgba(238, 241, 21, 0.39);
-    font-family: 'Bree Serif', serif;
     box-shadow: 10px 10px 8px #4e4e4e;
     color: white;
 }
 
-#timer {
+#count-timer {
     position: fixed;
     top: 170px;
     left: 650px;
@@ -80,24 +76,25 @@ button {
     box-shadow: 10px 10px 8px #4e4e4e;
     background-color: rgba(18, 189, 12, 0.432);
 }
-
-#question {
-    color: white;
-    margin-top: 5px;
-    padding: 7px;
-    font-family: 'Bree Serif', serif;
-    font-size: 25px;
+img {
+    height: 175px;
+    width: 175px;
+}
+#question, h2, h3, p {
+    color: rgb(255, 255, 255);
+    margin: 3px;
+    padding: 3px;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
     text-align: left;
 }
 
-#ans1, #ans2, #ans3, #ans4,
-choice1, choice2, choice3, choice4 {
+#fourQuestions {
     color: rgb(7, 6, 6);
     background-color: wheat;
     text-align: left;
     margin-top: 10px;
-    width: 550px;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Advent Pro', sans-serif;
     font-size: 20px;
     border: 2px solid darkgray;
     border-radius: 30px;
@@ -105,13 +102,23 @@ choice1, choice2, choice3, choice4 {
     margin: 5px; */
 }
 
-#ans1:hover, #ans2:hover, #ans3:hover, #ans4:hover,
-choice1:hover, choice2:hover, choice3:hover, choice4:hover {
+#start-over, #start-quiz, #button {
+    background-color: wheat;
+    width: auto;
+    margin: 3px;
+    padding: 2px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 15px;
+    border: 2px solid darkgray;
+    border-radius: 30px;
+}
+
+#start-quiz:hover, #start-over:hover, #button:hover {
     cursor: pointer;
     color: rgb(56, 42, 42);
     background-color: darkgray;
 }
 
-#ans1:focus, #ans2:focus, #ans3:focus, #ans4:focus {
+#start-quiz:focus, #start-over:focus, #button:focus {
     outline: 0;
 }
